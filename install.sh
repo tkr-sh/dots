@@ -125,8 +125,8 @@ if [[ $tmp == "1" ]]; then
 
             # Install fonts
             if [[ $pkg == "neofetch" ]]; then 
-                git clone https://github.com/ryanoasis/nerd-fonts
-                ./nerd-fonts/install.sh JetBrainsMono
+                mkdir -p ~/.local/share/fonts
+                cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf
                 cd -
             fi
         fi
