@@ -251,7 +251,7 @@ exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 
 # Background
-exec --no-startup-id feh --bg-scale ~/Pictures/tkwpp.png
+exec --no-startup-id feh --bg-scale ~/.config/i3/tkwpp.png
 
 # Changemy rate for keybind
 exec --no-startup-id xset r rate 250 60
