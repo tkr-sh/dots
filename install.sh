@@ -125,9 +125,8 @@ if [[ $tmp == "1" ]]; then
 
             # Install fonts
             if [[ $pkg == "neofetch" ]]; then 
-               git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
-                cd nerd-fonts
-                ./install.sh JetBrainsMono
+                git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
+                ./nerd-fonts/install.sh JetBrainsMono
                 cd -
             fi
         fi
