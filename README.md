@@ -1,6 +1,10 @@
 # dots files
 Here are my dots files!
 
+<img src="example.png"/>
+
+> Programs used in the picture: [langfetch](https://github.com/aderepas/langfetch), [btop](https://github.com/aristocratos/btop), [yay](https://github.com/Jguer/yay)
+
 ## Software
 
 - [alacritty](https://github.com/alacritty/alacritty): Terminal
