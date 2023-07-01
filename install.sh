@@ -122,6 +122,14 @@ if [[ $tmp == "1" ]]; then
                 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
                     ~/.local/share/nvim/site/pack/packer/start/packer.nvim
             fi
+
+            # Install fonts
+            if [[ $pkg == "neofetch" ]]; then 
+               git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
+                cd nerd-fonts
+                ./install.sh JetBrainsMono
+                cd -
+            fi
         fi
     done
 
